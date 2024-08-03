@@ -14,7 +14,7 @@
 
 package templates
 
-import api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+import api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 
 // NormalizeServiceTemplate normalizes .spec.templates.volumeClaimTemplates
 func NormalizeServiceTemplate(template *api.ServiceTemplate) {

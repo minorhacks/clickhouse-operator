@@ -19,8 +19,8 @@ import (
 	"database/sql"
 	"github.com/MakeNowJust/heredoc"
 
-	"github.com/altinity/clickhouse-operator/pkg/model/clickhouse"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	"github.com/minorhacks/clickhouse-operator/pkg/model/clickhouse"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 const (

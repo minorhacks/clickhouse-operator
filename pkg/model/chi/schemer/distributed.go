@@ -17,10 +17,10 @@ package schemer
 import (
 	"context"
 
-	log "github.com/altinity/clickhouse-operator/pkg/announcer"
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	model "github.com/altinity/clickhouse-operator/pkg/model/chi"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	log "github.com/minorhacks/clickhouse-operator/pkg/announcer"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	model "github.com/minorhacks/clickhouse-operator/pkg/model/chi"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 // shouldCreateDistributedObjects determines whether distributed objects should be created

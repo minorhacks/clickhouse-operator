@@ -20,8 +20,8 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/metrics"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/metrics"
 )
 
 // Metrics is a set of metrics that are tracked by the operator

@@ -15,7 +15,7 @@
 package v1
 
 import (
-	apiChi "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	apiChi "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 )
 
 // ChkStatus defines status section of ClickHouseKeeper resource

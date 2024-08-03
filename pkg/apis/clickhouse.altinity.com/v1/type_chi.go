@@ -23,8 +23,8 @@ import (
 	"github.com/imdario/mergo"
 	"gopkg.in/yaml.v3"
 
-	"github.com/altinity/clickhouse-operator/pkg/apis/deployment"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	"github.com/minorhacks/clickhouse-operator/pkg/apis/deployment"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 // FillStatus fills .Status

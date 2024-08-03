@@ -22,7 +22,7 @@ limitations under the License.
 package v1
 
 import (
-	swversion "github.com/altinity/clickhouse-operator/pkg/apis/swversion"
+	swversion "github.com/minorhacks/clickhouse-operator/pkg/apis/swversion"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"

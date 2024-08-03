@@ -20,7 +20,7 @@ import (
 
 	"github.com/altinity/queue"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 )
 
 const (

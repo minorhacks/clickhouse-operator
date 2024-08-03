@@ -28,8 +28,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
-	model "github.com/altinity/clickhouse-operator/pkg/model/chk"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
+	model "github.com/minorhacks/clickhouse-operator/pkg/model/chk"
 )
 
 func getNamespacedName(obj meta.Object) types.NamespacedName {

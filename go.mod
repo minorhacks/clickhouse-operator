@@ -1,4 +1,4 @@
-module github.com/altinity/clickhouse-operator
+module github.com/minorhacks/clickhouse-operator
 
 go 1.21
 

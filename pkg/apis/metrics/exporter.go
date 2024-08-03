@@ -28,12 +28,12 @@ import (
 	core "k8s.io/api/core/v1"
 	kube "k8s.io/client-go/kubernetes"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/chop"
-	chopAPI "github.com/altinity/clickhouse-operator/pkg/client/clientset/versioned"
-	"github.com/altinity/clickhouse-operator/pkg/controller"
-	chiNormalizer "github.com/altinity/clickhouse-operator/pkg/model/chi/normalizer"
-	"github.com/altinity/clickhouse-operator/pkg/model/clickhouse"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/chop"
+	chopAPI "github.com/minorhacks/clickhouse-operator/pkg/client/clientset/versioned"
+	"github.com/minorhacks/clickhouse-operator/pkg/controller"
+	chiNormalizer "github.com/minorhacks/clickhouse-operator/pkg/model/chi/normalizer"
+	"github.com/minorhacks/clickhouse-operator/pkg/model/clickhouse"
 )
 
 // Exporter implements prometheus.Collector interface

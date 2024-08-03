@@ -17,9 +17,9 @@ package templates
 import (
 	core "k8s.io/api/core/v1"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/apis/deployment"
-	model "github.com/altinity/clickhouse-operator/pkg/model/chi"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/apis/deployment"
+	model "github.com/minorhacks/clickhouse-operator/pkg/model/chi"
 )
 
 // NormalizePodTemplate normalizes .spec.templates.podTemplates

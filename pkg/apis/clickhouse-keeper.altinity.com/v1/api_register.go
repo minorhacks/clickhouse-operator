@@ -18,7 +18,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"sigs.k8s.io/controller-runtime/pkg/scheme"
 
-	clickhouse_keeper_altinity_com "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com"
+	clickhouse_keeper_altinity_com "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com"
 )
 
 var (

@@ -17,8 +17,8 @@ package chk
 import (
 	core "k8s.io/api/core/v1"
 
-	apiChk "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
-	apiChi "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	apiChk "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
+	apiChi "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 )
 
 func getPodTemplate(chk *apiChk.ClickHouseKeeperInstallation) apiChi.PodTemplate {

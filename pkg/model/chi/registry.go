@@ -20,7 +20,7 @@ import (
 
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 // EntityType specifies registry entity type

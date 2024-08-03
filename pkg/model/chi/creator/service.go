@@ -21,10 +21,10 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	model "github.com/altinity/clickhouse-operator/pkg/model/chi"
-	"github.com/altinity/clickhouse-operator/pkg/model/k8s"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	model "github.com/minorhacks/clickhouse-operator/pkg/model/chi"
+	"github.com/minorhacks/clickhouse-operator/pkg/model/k8s"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 // CreateServiceCHI creates new core.Service for specified CHI

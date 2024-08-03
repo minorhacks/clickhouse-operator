@@ -17,7 +17,7 @@ package creator
 import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 )
 
 func getOwnerReferences(chi *api.ClickHouseInstallation) []meta.OwnerReference {

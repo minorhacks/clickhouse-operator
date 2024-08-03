@@ -39,16 +39,16 @@ import (
 
 	"github.com/altinity/queue"
 
-	log "github.com/altinity/clickhouse-operator/pkg/announcer"
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/apis/metrics"
-	"github.com/altinity/clickhouse-operator/pkg/chop"
-	chopClientSet "github.com/altinity/clickhouse-operator/pkg/client/clientset/versioned"
-	chopClientSetScheme "github.com/altinity/clickhouse-operator/pkg/client/clientset/versioned/scheme"
-	chopInformers "github.com/altinity/clickhouse-operator/pkg/client/informers/externalversions"
-	"github.com/altinity/clickhouse-operator/pkg/controller"
-	model "github.com/altinity/clickhouse-operator/pkg/model/chi"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	log "github.com/minorhacks/clickhouse-operator/pkg/announcer"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/apis/metrics"
+	"github.com/minorhacks/clickhouse-operator/pkg/chop"
+	chopClientSet "github.com/minorhacks/clickhouse-operator/pkg/client/clientset/versioned"
+	chopClientSetScheme "github.com/minorhacks/clickhouse-operator/pkg/client/clientset/versioned/scheme"
+	chopInformers "github.com/minorhacks/clickhouse-operator/pkg/client/informers/externalversions"
+	"github.com/minorhacks/clickhouse-operator/pkg/controller"
+	model "github.com/minorhacks/clickhouse-operator/pkg/model/chi"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 // NewController creates instance of Controller

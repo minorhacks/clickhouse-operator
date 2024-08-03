@@ -26,15 +26,15 @@ import (
 
 	core "k8s.io/api/core/v1"
 
-	log "github.com/altinity/clickhouse-operator/pkg/announcer"
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/apis/deployment"
-	"github.com/altinity/clickhouse-operator/pkg/chop"
-	model "github.com/altinity/clickhouse-operator/pkg/model/chi"
-	"github.com/altinity/clickhouse-operator/pkg/model/chi/creator"
-	entitiesNormalizer "github.com/altinity/clickhouse-operator/pkg/model/chi/normalizer/entities"
-	templatesNormalizer "github.com/altinity/clickhouse-operator/pkg/model/chi/normalizer/templates"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	log "github.com/minorhacks/clickhouse-operator/pkg/announcer"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/apis/deployment"
+	"github.com/minorhacks/clickhouse-operator/pkg/chop"
+	model "github.com/minorhacks/clickhouse-operator/pkg/model/chi"
+	"github.com/minorhacks/clickhouse-operator/pkg/model/chi/creator"
+	entitiesNormalizer "github.com/minorhacks/clickhouse-operator/pkg/model/chi/normalizer/entities"
+	templatesNormalizer "github.com/minorhacks/clickhouse-operator/pkg/model/chi/normalizer/templates"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 type secretGet func(namespace, name string) (*core.Secret, error)

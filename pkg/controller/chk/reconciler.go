@@ -29,14 +29,14 @@ import (
 	ctrlUtil "sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	log "github.com/altinity/clickhouse-operator/pkg/announcer"
-	apiChk "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
-	apiChi "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/model/chi/normalizer"
+	log "github.com/minorhacks/clickhouse-operator/pkg/announcer"
+	apiChk "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
+	apiChi "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/model/chi/normalizer"
 
-	//	apiChi "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	model "github.com/altinity/clickhouse-operator/pkg/model/chk"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	//	apiChi "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	model "github.com/minorhacks/clickhouse-operator/pkg/model/chk"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 // ReconcileTime is the delay between reconciliations

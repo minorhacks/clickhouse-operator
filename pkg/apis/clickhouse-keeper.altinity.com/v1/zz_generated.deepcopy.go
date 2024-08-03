@@ -22,7 +22,7 @@ limitations under the License.
 package v1
 
 import (
-	clickhousealtinitycomv1 "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	clickhousealtinitycomv1 "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 )
 

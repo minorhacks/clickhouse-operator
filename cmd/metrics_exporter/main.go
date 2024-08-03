@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/altinity/clickhouse-operator/cmd/metrics_exporter/app"
+	"github.com/minorhacks/clickhouse-operator/cmd/metrics_exporter/app"
 )
 
 func main() {

@@ -17,7 +17,7 @@ package metrics
 import (
 	"encoding/json"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 )
 
 // WatchedCHI specifies watched ClickHouseInstallation

@@ -15,8 +15,8 @@
 package creator
 
 import (
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/apis/deployment"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/apis/deployment"
 )
 
 // NewDefaultHostTemplate returns default Host Template to be used with StatefulSet

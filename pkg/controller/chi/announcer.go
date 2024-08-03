@@ -21,8 +21,8 @@ import (
 
 	log "github.com/golang/glog"
 
-	a "github.com/altinity/clickhouse-operator/pkg/announcer"
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	a "github.com/minorhacks/clickhouse-operator/pkg/announcer"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 )
 
 // Announcer handler all log/event/status messages going outside of controller/worker

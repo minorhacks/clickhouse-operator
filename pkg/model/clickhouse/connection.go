@@ -25,8 +25,8 @@ import (
 	//goch "github.com/mailru/go-clickhouse"
 	goch "github.com/mailru/go-clickhouse/v2"
 
-	log "github.com/altinity/clickhouse-operator/pkg/announcer"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	log "github.com/minorhacks/clickhouse-operator/pkg/announcer"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 // const clickHouseDriverName = "clickhouse"

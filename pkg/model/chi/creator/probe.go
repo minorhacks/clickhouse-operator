@@ -18,8 +18,8 @@ import (
 	core "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	model "github.com/altinity/clickhouse-operator/pkg/model/chi"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	model "github.com/minorhacks/clickhouse-operator/pkg/model/chi"
 )
 
 // newDefaultLivenessProbe is a unification wrapper

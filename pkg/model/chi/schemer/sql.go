@@ -20,8 +20,8 @@ import (
 
 	"github.com/MakeNowJust/heredoc"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/model/chi"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/model/chi"
 )
 
 const ignoredDBs = `'system', 'information_schema', 'INFORMATION_SCHEMA'`

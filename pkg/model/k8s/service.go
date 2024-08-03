@@ -19,7 +19,7 @@ import (
 
 	core "k8s.io/api/core/v1"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 )
 
 // ServiceSpecVerifyPorts verifies core.ServiceSpec to have reasonable ports specified

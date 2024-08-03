@@ -16,7 +16,7 @@ package metrics
 
 import (
 	"fmt"
-	"github.com/altinity/clickhouse-operator/pkg/metrics"
+	"github.com/minorhacks/clickhouse-operator/pkg/metrics"
 	"strconv"
 	"time"
 
@@ -24,7 +24,7 @@ import (
 	// log "k8s.io/klog"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 const (

@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"strings"
 
-	apiChk "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
-	apiChi "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/util"
-	"github.com/altinity/clickhouse-operator/pkg/xml"
+	apiChk "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
+	apiChi "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
+	"github.com/minorhacks/clickhouse-operator/pkg/xml"
 )
 
 func defaultKeeperSettings(path string) *apiChi.Settings {

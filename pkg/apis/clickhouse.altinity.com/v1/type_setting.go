@@ -20,7 +20,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 // Settings value can be one of:

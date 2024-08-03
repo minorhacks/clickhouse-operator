@@ -24,13 +24,13 @@ import (
 	core "k8s.io/api/core/v1"
 	apiErrors "k8s.io/apimachinery/pkg/api/errors"
 
-	log "github.com/altinity/clickhouse-operator/pkg/announcer"
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/apis/deployment"
-	"github.com/altinity/clickhouse-operator/pkg/chop"
-	"github.com/altinity/clickhouse-operator/pkg/controller"
-	model "github.com/altinity/clickhouse-operator/pkg/model/chi"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	log "github.com/minorhacks/clickhouse-operator/pkg/announcer"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/apis/deployment"
+	"github.com/minorhacks/clickhouse-operator/pkg/chop"
+	"github.com/minorhacks/clickhouse-operator/pkg/controller"
+	model "github.com/minorhacks/clickhouse-operator/pkg/model/chi"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 var (

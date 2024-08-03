@@ -17,8 +17,8 @@ package entities
 import (
 	core "k8s.io/api/core/v1"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	model "github.com/altinity/clickhouse-operator/pkg/model/chi"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	model "github.com/minorhacks/clickhouse-operator/pkg/model/chi"
 )
 
 // NormalizeHostPorts ensures api.ChiReplica.Port is reasonable

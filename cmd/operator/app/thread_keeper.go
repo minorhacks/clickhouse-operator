@@ -15,9 +15,9 @@ import (
 
 	//	ctrl "sigs.k8s.io/controller-runtime/pkg/controller"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/chop"
-	controller "github.com/altinity/clickhouse-operator/pkg/controller/chk"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/chop"
+	controller "github.com/minorhacks/clickhouse-operator/pkg/controller/chk"
 )
 
 var (

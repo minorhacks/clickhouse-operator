@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/altinity/clickhouse-operator/pkg/apis/deployment"
+	"github.com/minorhacks/clickhouse-operator/pkg/apis/deployment"
 	"os"
 	"os/user"
 	"path/filepath"
@@ -27,10 +27,10 @@ import (
 	"github.com/kubernetes-sigs/yaml"
 	kube "k8s.io/client-go/kubernetes"
 
-	log "github.com/altinity/clickhouse-operator/pkg/announcer"
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	chopClientSet "github.com/altinity/clickhouse-operator/pkg/client/clientset/versioned"
-	"github.com/altinity/clickhouse-operator/pkg/controller"
+	log "github.com/minorhacks/clickhouse-operator/pkg/announcer"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	chopClientSet "github.com/minorhacks/clickhouse-operator/pkg/client/clientset/versioned"
+	"github.com/minorhacks/clickhouse-operator/pkg/controller"
 )
 
 // ConfigManager specifies configuration manager in charge of operator's configuration

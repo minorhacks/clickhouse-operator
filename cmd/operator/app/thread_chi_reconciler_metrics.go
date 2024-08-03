@@ -17,8 +17,8 @@ package app
 import (
 	"context"
 	"flag"
-	log "github.com/altinity/clickhouse-operator/pkg/announcer"
-	"github.com/altinity/clickhouse-operator/pkg/metrics"
+	log "github.com/minorhacks/clickhouse-operator/pkg/announcer"
+	"github.com/minorhacks/clickhouse-operator/pkg/metrics"
 )
 
 // Prometheus exporter defaults

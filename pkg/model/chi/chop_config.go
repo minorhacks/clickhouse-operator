@@ -19,8 +19,8 @@ import (
 
 	"gopkg.in/d4l3k/messagediff.v1"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/chop"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/chop"
 )
 
 // isZookeeperChangeRequiresReboot checks two ZooKeeper configs and decides,

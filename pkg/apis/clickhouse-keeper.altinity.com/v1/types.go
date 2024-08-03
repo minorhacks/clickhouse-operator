@@ -17,12 +17,12 @@ package v1
 import (
 	"sync"
 
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 	"github.com/imdario/mergo"
 
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	apiChi "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	apiChi "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 )
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object

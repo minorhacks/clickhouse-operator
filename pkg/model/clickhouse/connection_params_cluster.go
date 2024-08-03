@@ -15,7 +15,7 @@
 package clickhouse
 
 import (
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 )
 
 // ClusterConnectionParams represents connection parameters to the whole cluster

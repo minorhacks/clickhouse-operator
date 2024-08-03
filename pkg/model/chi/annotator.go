@@ -17,9 +17,9 @@ package chi
 import (
 	core "k8s.io/api/core/v1"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/chop"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/chop"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 // Annotator is an entity which can annotate CHI artifacts

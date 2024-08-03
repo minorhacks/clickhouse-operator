@@ -30,8 +30,8 @@ import (
 	"gopkg.in/yaml.v3"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/altinity/clickhouse-operator/pkg/apis/deployment"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	"github.com/minorhacks/clickhouse-operator/pkg/apis/deployment"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 const (

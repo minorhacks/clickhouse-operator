@@ -23,7 +23,7 @@ import (
 
 	"gopkg.in/d4l3k/messagediff.v1"
 
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 // Specify returned errors for being re-used

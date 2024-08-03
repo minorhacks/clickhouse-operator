@@ -21,8 +21,8 @@ package v1
 import (
 	"net/http"
 
-	v1 "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/client/clientset/versioned/scheme"
+	v1 "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

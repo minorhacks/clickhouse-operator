@@ -23,8 +23,8 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/chop"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/chop"
 )
 
 // CreateConfigMap returns a config map containing ClickHouse Keeper config XML

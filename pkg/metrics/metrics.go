@@ -25,11 +25,11 @@ import (
 	otelResource "go.opentelemetry.io/otel/sdk/resource"
 	semconv "go.opentelemetry.io/otel/semconv/v1.24.0"
 
-	log "github.com/altinity/clickhouse-operator/pkg/announcer"
-	"github.com/altinity/clickhouse-operator/pkg/apis/deployment"
-	"github.com/altinity/clickhouse-operator/pkg/chop"
-	"github.com/altinity/clickhouse-operator/pkg/util"
-	"github.com/altinity/clickhouse-operator/pkg/version"
+	log "github.com/minorhacks/clickhouse-operator/pkg/announcer"
+	"github.com/minorhacks/clickhouse-operator/pkg/apis/deployment"
+	"github.com/minorhacks/clickhouse-operator/pkg/chop"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
+	"github.com/minorhacks/clickhouse-operator/pkg/version"
 )
 
 func newOTELResource() (*otelResource.Resource, error) {

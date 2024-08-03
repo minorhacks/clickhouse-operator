@@ -18,7 +18,7 @@ import (
 	apps "k8s.io/api/apps/v1"
 	core "k8s.io/api/core/v1"
 
-	"github.com/altinity/clickhouse-operator/pkg/apis/swversion"
+	"github.com/minorhacks/clickhouse-operator/pkg/apis/swversion"
 )
 
 // ChiHost defines host (a data replica within a shard) of .spec.configuration.clusters[n].shards[m]

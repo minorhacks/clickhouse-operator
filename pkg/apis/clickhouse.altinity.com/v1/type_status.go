@@ -18,8 +18,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/altinity/clickhouse-operator/pkg/util"
-	"github.com/altinity/clickhouse-operator/pkg/version"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
+	"github.com/minorhacks/clickhouse-operator/pkg/version"
 )
 
 const (

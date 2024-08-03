@@ -29,18 +29,18 @@ import (
 
 	"github.com/altinity/queue"
 
-	log "github.com/altinity/clickhouse-operator/pkg/announcer"
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
-	"github.com/altinity/clickhouse-operator/pkg/apis/deployment"
-	"github.com/altinity/clickhouse-operator/pkg/chop"
-	"github.com/altinity/clickhouse-operator/pkg/controller"
-	model "github.com/altinity/clickhouse-operator/pkg/model/chi"
-	chiCreator "github.com/altinity/clickhouse-operator/pkg/model/chi/creator"
-	"github.com/altinity/clickhouse-operator/pkg/model/chi/normalizer"
-	"github.com/altinity/clickhouse-operator/pkg/model/chi/schemer"
-	"github.com/altinity/clickhouse-operator/pkg/model/clickhouse"
-	"github.com/altinity/clickhouse-operator/pkg/model/k8s"
-	"github.com/altinity/clickhouse-operator/pkg/util"
+	log "github.com/minorhacks/clickhouse-operator/pkg/announcer"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
+	"github.com/minorhacks/clickhouse-operator/pkg/apis/deployment"
+	"github.com/minorhacks/clickhouse-operator/pkg/chop"
+	"github.com/minorhacks/clickhouse-operator/pkg/controller"
+	model "github.com/minorhacks/clickhouse-operator/pkg/model/chi"
+	chiCreator "github.com/minorhacks/clickhouse-operator/pkg/model/chi/creator"
+	"github.com/minorhacks/clickhouse-operator/pkg/model/chi/normalizer"
+	"github.com/minorhacks/clickhouse-operator/pkg/model/chi/schemer"
+	"github.com/minorhacks/clickhouse-operator/pkg/model/clickhouse"
+	"github.com/minorhacks/clickhouse-operator/pkg/model/k8s"
+	"github.com/minorhacks/clickhouse-operator/pkg/util"
 )
 
 // FinalizerName specifies name of the finalizer to be used with CHI

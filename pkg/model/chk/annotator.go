@@ -17,7 +17,7 @@ package chk
 import (
 	"fmt"
 
-	api "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
+	api "github.com/minorhacks/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
 )
 
 func getPodAnnotations(chk *api.ClickHouseKeeperInstallation) map[string]string {
