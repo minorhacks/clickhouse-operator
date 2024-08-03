@@ -1458,7 +1458,7 @@ func (w *worker) updateService(
 			M(chi).F().
 			Info("Update Service success: %s/%s", newService.Namespace, newService.Name)
 	} else {
-		w.a.M(chi).F().Error("Update Service fail: %s/%s failed with error %v", newService.Namespace, newService.Name)
+		w.a.M(chi).F().Error("Update Service fail: %s/%s failed with error %v", newService.Namespace, newService.Name, err)
 	}
 
 	return err

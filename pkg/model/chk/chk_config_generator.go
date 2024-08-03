@@ -84,7 +84,7 @@ func generateXMLConfig(settings *apiChi.Settings, chk *apiChk.ClickHouseKeeperIn
 	for i := 0; i < getCluster(chk).GetLayout().GetReplicasCount(); i++ {
 		util.Iline(raft, 12, "<server>")
 		util.Iline(raft, 12, "    <id>%d</id>", i)
-		util.Iline(raft, 12, "    <hostname>%s-%d.%s-headless.%s.svc.cluster.local</hostname>", chk.Name, i, chk.Name, chk.Namespace)
+		util.Iline(raft, 12, "    <hostname>%s-%d.%s-headless.%s</hostname>", chk.Name, i, chk.Name, chk.Namespace)
 		util.Iline(raft, 12, "    <port>%s</port>", fmt.Sprintf("%d", raftPort))
 		util.Iline(raft, 12, "</server>")
 	}

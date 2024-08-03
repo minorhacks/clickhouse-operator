@@ -33,6 +33,7 @@ import (
 	apiChk "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse-keeper.altinity.com/v1"
 	apiChi "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 	"github.com/altinity/clickhouse-operator/pkg/model/chi/normalizer"
+
 	//	apiChi "github.com/altinity/clickhouse-operator/pkg/apis/clickhouse.altinity.com/v1"
 	model "github.com/altinity/clickhouse-operator/pkg/model/chk"
 	"github.com/altinity/clickhouse-operator/pkg/util"
@@ -276,7 +277,7 @@ func (r *ChkReconciler) reconcileClusterStatus(chk *apiChk.ClickHouseKeeperInsta
 		for _, readyOne := range readyMembers {
 			cur.Status.ReadyReplicas = append(cur.Status.ReadyReplicas,
 				apiChi.ChiZookeeperNode{
-					Host:   fmt.Sprintf("%s.%s.svc.cluster.local", readyOne, chk.Namespace),
+					Host:   fmt.Sprintf("%s.%s", readyOne, chk.Namespace),
 					Port:   int32(chk.Spec.GetClientPort()),
 					Secure: apiChi.NewStringBool(false),
 				})
